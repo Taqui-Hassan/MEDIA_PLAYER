@@ -9,14 +9,7 @@
 body {
     background-color: black;
 }
-html, body {
-    overflow-x: hidden;
-    width: 100%;
-}
-.main, .first, .faq, footer {
-    max-width: 100%;
-    box-sizing: border-box;
-}
+
 .main {
     background-image: url("images/old.jpg");
     height: 666px;
@@ -45,12 +38,13 @@ nav {
 
 
 }
+
 nav img {
+    /* color: #100303; */
     width: 204px;
     position: relative;
     z-index: 15;
-    /* Remove or adjust this right property */
-    /* right: 96px; */
+    right: 96px;
 }
 
 nav button {
